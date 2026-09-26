@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 # 1. Настройка страницы
 st.set_page_config(page_title="T-Bank Credit Scoring Dashboard", layout="wide")
 st.title("📊 Оптимизация бизнес-метрик кредитного скоринга")
-st.subheader("Кейс для Департамента Рисков Т-Банка")
+st.subheader("Кейс для Департамента Рисков Банка")
 
 # 2. Кэширование загрузки данных и обучения модели (чтобы дашборд не тормозил)
 @st.cache_data
